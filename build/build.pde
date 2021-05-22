@@ -84,6 +84,8 @@ void setup() {
 
 void draw() {
 
+
+	//ELEGIR UN PUNTO AL AZAR, COGER SU COLOR Y DIBUJAR UN CIRCULO
 	x = int(random(width));
 	y = int(random(height));
 
@@ -92,8 +94,6 @@ void draw() {
 	fill(foto.pixels[loc]);
 
 	circle(x,y,25);
-
-
 
 
 	// // DIBUJAR DOS LINEAS VERTICALES ESCOGIENDO UN COLOR DE ESA SECCION Y COLUMNA AL AZAR
